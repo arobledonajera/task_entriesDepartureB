@@ -3,12 +3,7 @@ const { vehicles } = require("../repositories/index.repository");
 const moment = require("moment");
 
 const taskEntriesDepartures = async () => {
-    //Devices Grupo Bimbo
-// const devicesId = ["b621","b60A","b609","b60B","bA43","bA45","bA40","bA42",
-// "b9B0","bA48","bA4C","bA3F","bA3C","bA3B","bA05","bA4A","bA08","bA4B","bA36","b9B8","bA49","bA09","b9B9","b9B7","bA0B","bA06",
-// "bA0A","bA07","bA35","bA47","bA46","bA44","b608"];
 
-//Devices Barcel
 const devicesId = ["b1EA","b1FD","b240","b1D1","b221","b1D2","b23B","b21E","b21C","b242","b1D8","b22E","b202","b1D3", "b23A","b223","b20A","b203","b1E3","b1D6","b209","b232","b211","b243","b22B","b1D7","b225",
     "b1E9","b1E0","b1F9","b229","b23F","b1D9","b238","b1FE","b236","b1F1","b1F4","b23C","b20E","b21B","b1E7","b245", "b207","b220","b230","b1DE","b1CF","b222","b1EC","b1DB","b224","b239","b231","b1DD","b21D",
     "b1E8","b1F5","b205","b23D","b20B","b24A","b21A","b23E","b227","b1F0","b1EB","b208","b1E2","b1FA","b1F8","b200", "b22F","b1E5","b22A","b246","b1E6","b218","b248","b214","b1D0","b1F6","b20F","b216","b1F2",
